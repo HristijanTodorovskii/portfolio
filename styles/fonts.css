@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-italic;
+    src: url('../fonts/Montserrat-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: SourceSans;
+    src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Montserrat;
+    color: #E1E1E1;
+}
+
+.bold-text{
+    font-weight: 600;
+}
+
+.p-custom {
+    font-family: Montserrat;
+    color: #E1E1E1;
+    font-size: 25px;
+}
+
+.p-content{
+    font-family: SourceSans;
+    color: #E1E1E1;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.p-content-regular{
+    font-family: SourceSans;
+    color: #E1E1E1;
+    font-size: 20px;
+    font-weight: 300;
+    justify-content: center;
+}
+
+.pink-text{
+    color:#CC397B;
+    text-decoration: underline;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.pink-text:hover{
+    color: #B8306D;
+    transition: 0.3s;
+}
