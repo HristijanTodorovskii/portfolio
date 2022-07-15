@@ -1,3 +1,8 @@
+:root{
+    --clr-neon: hsl(288 100% 54%);
+}
+/*color:var(--clr-neon);*/
+
 .bg-custom{
     background-color: transparent;
 }
@@ -19,9 +24,10 @@
 
 .active::after {
     content:'';
-    background: #CC00FF;
+    background: var(--clr-neon);
+    box-shadow: 0 0 .4em 0 var(--clr-neon);
     display: block;
     width: 60px;
-    height: 5px;
+    height: 3px;
 
 }   
